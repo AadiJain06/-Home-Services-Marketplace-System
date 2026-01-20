@@ -5,16 +5,16 @@ A full-stack booking system for an on-demand home services marketplace that hand
 ## Features
 
 ### Core Functionality
-- ✅ **Create Bookings**: Customers can request services with details (service type, address, description, scheduled time)
-- ✅ **Automatic Provider Assignment**: System automatically assigns available providers based on service type
-- ✅ **Provider Workflow**: Providers can accept, reject, or view their assigned bookings
-- ✅ **Status Lifecycle Management**: Tracks booking through states: `pending → assigned → in-progress → completed`
-- ✅ **Failure Handling**:
+-  **Create Bookings**: Customers can request services with details (service type, address, description, scheduled time)
+-  **Automatic Provider Assignment**: System automatically assigns available providers based on service type
+-  **Provider Workflow**: Providers can accept, reject, or view their assigned bookings
+-  **Status Lifecycle Management**: Tracks booking through states: `pending → assigned → in-progress → completed`
+-  **Failure Handling**:
   - Customer and provider cancellations
   - Provider rejections with automatic reassignment
   - Retry logic for failed operations (exponential backoff)
   - Manual admin intervention and status overrides
-- ✅ **Observability**: Complete event logging and booking history tracking
+-  **Observability**: Complete event logging and booking history tracking
 
 ### UI Screens
 1. **Create Booking Screen**: Form to create new service bookings
